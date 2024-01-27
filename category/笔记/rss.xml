@@ -2,18 +2,18 @@
 <rss version="2.0">
     <channel>
         <title>流年印记 • Posts by &#34;笔记&#34; category</title>
-        <link>https://hk2012.github.io/hongkuan.github.io</link>
+        <link>https://hongkuan1.github.io</link>
         <description>数学 &amp; 软件工程</description>
         <language>zh-CN</language>
         <pubDate>Fri, 08 Sep 2023 17:55:00 +0800</pubDate>
         <lastBuildDate>Fri, 08 Sep 2023 17:55:00 +0800</lastBuildDate>
         <category>记录</category>
-        <category>学习</category>
         <category>总结</category>
+        <category>学习</category>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/softwareEnginee/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/09/08/note/softwareEnginee/</guid>
             <title>2024软件工程</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/softwareEnginee/</link>
+            <link>https://hongkuan1.github.io/2023/09/08/note/softwareEnginee/</link>
             <category>总结</category>
             <pubDate>Fri, 08 Sep 2023 17:55:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概述&#34;&gt;#&lt;/a&gt; 概述&lt;/h1&gt;
@@ -1536,9 +1536,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/softwareEnginee2/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/09/08/note/softwareEnginee2/</guid>
             <title>2024面向对象的软件工程</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/softwareEnginee2/</link>
+            <link>https://hongkuan1.github.io/2023/09/08/note/softwareEnginee2/</link>
             <category>总结</category>
             <pubDate>Fri, 08 Sep 2023 17:54:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;面向对象方法学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#面向对象方法学&#34;&gt;#&lt;/a&gt; 面向对象方法学&lt;/h1&gt;
@@ -3133,9 +3133,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/CLanguage/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/09/08/note/CLanguage/</guid>
             <title>2024 C语言程序设计</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/CLanguage/</link>
+            <link>https://hongkuan1.github.io/2023/09/08/note/CLanguage/</link>
             <category>总结</category>
             <pubDate>Fri, 08 Sep 2023 17:51:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c语言与程序设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c语言与程序设计&#34;&gt;#&lt;/a&gt; C 语言与程序设计&lt;/h1&gt;
@@ -3361,9 +3361,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/01/16/note/securityFrame/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/01/16/note/securityFrame/</guid>
             <title>亚信安全框架遇到的坑</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/01/16/note/securityFrame/</link>
+            <link>https://hongkuan1.github.io/2023/01/16/note/securityFrame/</link>
             <category>总结</category>
             <pubDate>Mon, 16 Jan 2023 13:48:53 +0800</pubDate>
             <description><![CDATA[ &lt;ul&gt;
@@ -3389,9 +3389,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/01/13/note/hexoUseReport/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/01/13/note/hexoUseReport/</guid>
             <title>hexo使用问题记录</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/01/13/note/hexoUseReport/</link>
+            <link>https://hongkuan1.github.io/2023/01/13/note/hexoUseReport/</link>
             <category>总结</category>
             <pubDate>Fri, 13 Jan 2023 11:04:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;hexo-d-timeout&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-d-timeout&#34;&gt;#&lt;/a&gt; hexo d timeout&lt;/h2&gt;
@@ -3410,9 +3410,9 @@
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# Deployment&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;## Docs: https://hexo.io/docs/one-command-deployment&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;deploy:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  type: &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token comment&#34;&gt;# 1. 问题： 仓库地址 repository 设置成 https 开头，会经常超时&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token comment&#34;&gt;# repo: https://github.com/hk2012/hk2012.github.io.git&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token comment&#34;&gt;# 2. 解决方法   &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  repo: git@github.com:hk2012/hk2012.github.io.git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  branch: master&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/01/12/note/npmUse/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/01/12/note/npmUse/</guid>
             <title>npm 使用记录</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/01/12/note/npmUse/</link>
+            <link>https://hongkuan1.github.io/2023/01/12/note/npmUse/</link>
             <category>总结</category>
             <pubDate>Thu, 12 Jan 2023 16:36:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;npm-使用记录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#npm-使用记录&#34;&gt;#&lt;/a&gt; npm 使用记录&lt;/h2&gt;
@@ -3449,9 +3449,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/01/11/note/influxdbTheory/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/01/11/note/influxdbTheory/</guid>
             <title>influxdb 知识总结</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/01/11/note/influxdbTheory/</link>
+            <link>https://hongkuan1.github.io/2023/01/11/note/influxdbTheory/</link>
             <category>总结</category>
             <pubDate>Wed, 11 Jan 2023 16:25:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h2&gt;
@@ -3461,9 +3461,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/01/11/note/messageQueue/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/01/11/note/messageQueue/</guid>
             <title>消息队列 知识总结</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/01/11/note/messageQueue/</link>
+            <link>https://hongkuan1.github.io/2023/01/11/note/messageQueue/</link>
             <category>总结</category>
             <pubDate>Wed, 11 Jan 2023 15:25:53 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;定义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#定义&#34;&gt;#&lt;/a&gt; 定义&lt;/h3&gt;
@@ -3496,9 +3496,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2022/11/17/note/dataTransferOptimization/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2022/11/17/note/dataTransferOptimization/</guid>
             <title>二级节点同步数据优化至每日1500万</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2022/11/17/note/dataTransferOptimization/</link>
+            <link>https://hongkuan1.github.io/2022/11/17/note/dataTransferOptimization/</link>
             <category>总结</category>
             <pubDate>Thu, 17 Nov 2022 15:27:53 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;背景介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景介绍&#34;&gt;#&lt;/a&gt; 背景介绍&lt;/h3&gt;
@@ -3541,9 +3541,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2022/10/16/note/kafkaManual/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2022/10/16/note/kafkaManual/</guid>
             <title>kafka使用手册</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2022/10/16/note/kafkaManual/</link>
+            <link>https://hongkuan1.github.io/2022/10/16/note/kafkaManual/</link>
             <category>总结</category>
             <pubDate>Sun, 16 Oct 2022 15:27:53 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;systemctl start kafka&lt;br /&gt;

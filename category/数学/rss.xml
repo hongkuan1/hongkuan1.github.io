@@ -2,18 +2,18 @@
 <rss version="2.0">
     <channel>
         <title>流年印记 • Posts by &#34;数学&#34; category</title>
-        <link>https://hk2012.github.io/hongkuan.github.io</link>
+        <link>https://hongkuan1.github.io</link>
         <description>数学 &amp; 软件工程</description>
         <language>zh-CN</language>
         <pubDate>Fri, 01 Sep 2023 16:45:53 +0800</pubDate>
         <lastBuildDate>Fri, 01 Sep 2023 16:45:53 +0800</lastBuildDate>
         <category>记录</category>
-        <category>学习</category>
         <category>总结</category>
+        <category>学习</category>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/09/01/math/linearAlgebra/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/09/01/math/linearAlgebra/</guid>
             <title>线性代数（数学二）</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/09/01/math/linearAlgebra/</link>
+            <link>https://hongkuan1.github.io/2023/09/01/math/linearAlgebra/</link>
             <pubDate>Fri, 01 Sep 2023 16:45:53 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;行列式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#行列式&#34;&gt;#&lt;/a&gt; 行列式&lt;/h1&gt;
 &lt;ul&gt;
@@ -553,9 +553,9 @@ a_{31} &amp;amp; a_{32} &amp;amp; a_{33} \\
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/08/30/math/integralCalculus/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/08/30/math/integralCalculus/</guid>
             <title>高等数学积分学</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/08/30/math/integralCalculus/</link>
+            <link>https://hongkuan1.github.io/2023/08/30/math/integralCalculus/</link>
             <category>总结</category>
             <pubDate>Wed, 30 Aug 2023 16:58:53 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;不定积分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#不定积分&#34;&gt;#&lt;/a&gt; 不定积分&lt;/h1&gt;
@@ -945,9 +945,9 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/08/27/math/MathImages/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/08/27/math/MathImages/</guid>
             <title>高等数学数学图像作图</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/08/27/math/MathImages/</link>
+            <link>https://hongkuan1.github.io/2023/08/27/math/MathImages/</link>
             <category>总结</category>
             <pubDate>Sun, 27 Aug 2023 15:48:53 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;函数图像&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#函数图像&#34;&gt;#&lt;/a&gt; 函数图像&lt;/h1&gt;
@@ -1326,9 +1326,9 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/08/18/math/advancedMathematics/</guid>
+            <guid isPermalink="true">https://hongkuan1.github.io/2023/08/18/math/advancedMathematics/</guid>
             <title>高等数学(数学二)</title>
-            <link>https://hk2012.github.io/hongkuan.github.io/2023/08/18/math/advancedMathematics/</link>
+            <link>https://hongkuan1.github.io/2023/08/18/math/advancedMathematics/</link>
             <pubDate>Fri, 18 Aug 2023 15:48:53 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概述&#34;&gt;#&lt;/a&gt; 概述&lt;/h1&gt;
 &lt;h2 id=&#34;官方解释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#官方解释&#34;&gt;#&lt;/a&gt; 官方解释&lt;/h2&gt;

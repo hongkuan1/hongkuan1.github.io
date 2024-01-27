@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://hk2012.github.io/hongkuan.github.io</id>
+    <id>https://hongkuan1.github.io</id>
     <title>流年印记 • Posts by &#34;文档&#34; category</title>
-    <link href="https://hk2012.github.io/hongkuan.github.io" />
+    <link href="https://hongkuan1.github.io" />
     <updated>2024-01-26T09:09:00.000Z</updated>
     <category term="记录" />
-    <category term="学习" />
     <category term="总结" />
+    <category term="学习" />
     <entry>
-        <id>https://hk2012.github.io/hongkuan.github.io/2024/01/26/doc/hello/</id>
+        <id>https://hongkuan1.github.io/2024/01/26/doc/hello/</id>
         <title>机器学习实战</title>
-        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2024/01/26/doc/hello/"/>
+        <link rel="alternate" href="https://hongkuan1.github.io/2024/01/26/doc/hello/"/>
         <content type="html">&lt;h1 id=&#34;第一部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一部分&#34;&gt;#&lt;/a&gt; 第一部分&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;本书前两部分主要探讨监督学习 （supervised learning）。
@@ -83,9 +83,9 @@
         <updated>2024-01-26T09:09:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://hk2012.github.io/hongkuan.github.io/2023/11/26/doc/machineLeaning/</id>
+        <id>https://hongkuan1.github.io/2023/11/26/doc/machineLeaning/</id>
         <title>机器学习实战</title>
-        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/11/26/doc/machineLeaning/"/>
+        <link rel="alternate" href="https://hongkuan1.github.io/2023/11/26/doc/machineLeaning/"/>
         <content type="html">&lt;h1 id=&#34;第一部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一部分&#34;&gt;#&lt;/a&gt; 第一部分&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;本书前两部分主要探讨监督学习 （supervised learning）。
@@ -158,9 +158,9 @@
         <updated>2023-11-26T09:09:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://hk2012.github.io/hongkuan.github.io/2023/09/11/doc/PubmedPolictics2/</id>
+        <id>https://hongkuan1.github.io/2023/09/11/doc/PubmedPolictics2/</id>
         <title>2024考研政治 (毛泽东思想和中特色社会主义理论体系概论)</title>
-        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/09/11/doc/PubmedPolictics2/"/>
+        <link rel="alternate" href="https://hongkuan1.github.io/2023/09/11/doc/PubmedPolictics2/"/>
         <content type="html">&lt;h1 id=&#34;毛泽东思想和中特色社会主义理论体系概论&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#毛泽东思想和中特色社会主义理论体系概论&#34;&gt;#&lt;/a&gt; 毛泽东思想和中特色社会主义理论体系概论&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;/img/polictics/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA.png&#34; alt=&#34;毛泽东思想中国特色理论体系概论&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;导论&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导论&#34;&gt;#&lt;/a&gt; 导论&lt;/h2&gt;
@@ -1279,9 +1279,9 @@
         <updated>2023-09-11T07:36:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://hk2012.github.io/hongkuan.github.io/2023/09/09/doc/PubmedPolictics4/</id>
+        <id>https://hongkuan1.github.io/2023/09/09/doc/PubmedPolictics4/</id>
         <title>2024考研政治 (思想道德与法制)</title>
-        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/09/09/doc/PubmedPolictics4/"/>
+        <link rel="alternate" href="https://hongkuan1.github.io/2023/09/09/doc/PubmedPolictics4/"/>
         <content type="html">&lt;h1 id=&#34;思想道德与法制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#思想道德与法制&#34;&gt;#&lt;/a&gt; 思想道德与法制&lt;/h1&gt;
 &lt;h2 id=&#34;绪论&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#绪论&#34;&gt;#&lt;/a&gt; 绪论&lt;/h2&gt;
 &lt;h3 id=&#34;担当复兴大任-成就时代新人&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#担当复兴大任-成就时代新人&#34;&gt;#&lt;/a&gt; 担当复兴大任 成就时代新人&lt;/h3&gt;
@@ -1593,9 +1593,9 @@
         <updated>2023-09-09T07:36:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://hk2012.github.io/hongkuan.github.io/2023/09/09/doc/PubmedPolictics3/</id>
+        <id>https://hongkuan1.github.io/2023/09/09/doc/PubmedPolictics3/</id>
         <title>2024考研政治 (中国近代史纲要)</title>
-        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/09/09/doc/PubmedPolictics3/"/>
+        <link rel="alternate" href="https://hongkuan1.github.io/2023/09/09/doc/PubmedPolictics3/"/>
         <content type="html">&lt;h1 id=&#34;中国近代史纲要&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中国近代史纲要&#34;&gt;#&lt;/a&gt; 中国近代史纲要&lt;/h1&gt;
 &lt;h2 id=&#34;旧民主主义革命时期&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#旧民主主义革命时期&#34;&gt;#&lt;/a&gt; 旧民主主义革命时期&lt;/h2&gt;
 &lt;h3 id=&#34;进入近代后中华民族的磨难与抗争&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进入近代后中华民族的磨难与抗争&#34;&gt;#&lt;/a&gt; 进入近代后中华民族的磨难与抗争&lt;/h3&gt;
@@ -2121,9 +2121,9 @@
         <updated>2023-09-09T07:36:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://hk2012.github.io/hongkuan.github.io/2023/09/02/doc/PubmedPolictics/</id>
+        <id>https://hongkuan1.github.io/2023/09/02/doc/PubmedPolictics/</id>
         <title>2024考研政治 (马克思主义基本原理)</title>
-        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/09/02/doc/PubmedPolictics/"/>
+        <link rel="alternate" href="https://hongkuan1.github.io/2023/09/02/doc/PubmedPolictics/"/>
         <content type="html">&lt;h1 id=&#34;马克思主义基本原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#马克思主义基本原理&#34;&gt;#&lt;/a&gt; 马克思主义基本原理&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;马克思主义是关于无产阶级和人类解放的科学&lt;/strong&gt;&lt;/li&gt;
@@ -4044,9 +4044,9 @@
         <updated>2023-09-02T07:48:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hk2012.github.io/hongkuan.github.io/2022/10/21/doc/bigScreen/</id>
+        <id>https://hongkuan1.github.io/2022/10/21/doc/bigScreen/</id>
         <title>主动标识数据大屏动态接口配置</title>
-        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2022/10/21/doc/bigScreen/"/>
+        <link rel="alternate" href="https://hongkuan1.github.io/2022/10/21/doc/bigScreen/"/>
         <content type="html">&lt;h3 id=&#34;概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概述&#34;&gt;#&lt;/a&gt; 概述&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;该文档只针对于 http://172.17.1.39:9000 数据大屏动态接口的数据配置介绍，不介绍特效组成和最终的展示的参数配置。
 &lt;/code&gt;&lt;/pre&gt;
