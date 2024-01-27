@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>流年印记 • Posts by &#34;java&#34; category</title>
-        <link>https://hongkuan.github.io</link>
+        <link>https://hk2012.github.io/hongkuan.github.io</link>
         <description>数学 &amp; 软件工程</description>
         <language>zh-CN</language>
         <pubDate>Tue, 24 Jan 2023 15:48:53 +0800</pubDate>
@@ -11,9 +11,9 @@
         <category>总结</category>
         <category>学习</category>
         <item>
-            <guid isPermalink="true">https://hongkuan.github.io/2023/01/24/java/jvm%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+            <guid isPermalink="true">https://hk2012.github.io/hongkuan.github.io/2023/01/24/java/jvm%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
             <title>jvm面试题整理</title>
-            <link>https://hongkuan.github.io/2023/01/24/java/jvm%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+            <link>https://hk2012.github.io/hongkuan.github.io/2023/01/24/java/jvm%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
             <category>总结</category>
             <pubDate>Tue, 24 Jan 2023 15:48:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;jvm底层面试题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jvm底层面试题&#34;&gt;#&lt;/a&gt; JVM 底层面试题&lt;/h2&gt;

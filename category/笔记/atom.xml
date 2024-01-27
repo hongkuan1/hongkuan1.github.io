@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://hongkuan.github.io</id>
+    <id>https://hk2012.github.io/hongkuan.github.io</id>
     <title>流年印记 • Posts by &#34;笔记&#34; category</title>
-    <link href="https://hongkuan.github.io" />
+    <link href="https://hk2012.github.io/hongkuan.github.io" />
     <updated>2023-09-08T09:55:00.000Z</updated>
     <category term="记录" />
     <category term="总结" />
     <category term="学习" />
     <entry>
-        <id>https://hongkuan.github.io/2023/09/08/note/softwareEnginee/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/softwareEnginee/</id>
         <title>2024软件工程</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/09/08/note/softwareEnginee/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/softwareEnginee/"/>
         <content type="html">&lt;h1 id=&#34;概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概述&#34;&gt;#&lt;/a&gt; 概述&lt;/h1&gt;
 &lt;h2 id=&#34;软件和软件危机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#软件和软件危机&#34;&gt;#&lt;/a&gt; 软件和软件危机&lt;/h2&gt;
 &lt;div class=&#34;note default&#34;&gt;
@@ -1533,9 +1533,9 @@
         <updated>2023-09-08T09:55:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/09/08/note/softwareEnginee2/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/softwareEnginee2/</id>
         <title>2024面向对象的软件工程</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/09/08/note/softwareEnginee2/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/softwareEnginee2/"/>
         <content type="html">&lt;h1 id=&#34;面向对象方法学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#面向对象方法学&#34;&gt;#&lt;/a&gt; 面向对象方法学&lt;/h1&gt;
 &lt;h2 id=&#34;面向对象方法概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#面向对象方法概述&#34;&gt;#&lt;/a&gt; 面向对象方法概述&lt;/h2&gt;
 &lt;ul&gt;
@@ -3130,9 +3130,9 @@
         <updated>2023-09-08T09:54:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/09/08/note/CLanguage/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/CLanguage/</id>
         <title>2024 C语言程序设计</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/09/08/note/CLanguage/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/09/08/note/CLanguage/"/>
         <content type="html">&lt;h1 id=&#34;c语言与程序设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c语言与程序设计&#34;&gt;#&lt;/a&gt; C 语言与程序设计&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -3358,9 +3358,9 @@
         <updated>2023-09-08T09:51:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/01/16/note/securityFrame/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/01/16/note/securityFrame/</id>
         <title>亚信安全框架遇到的坑</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/01/16/note/securityFrame/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/01/16/note/securityFrame/"/>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;问题一
 &lt;ol&gt;
@@ -3386,9 +3386,9 @@
         <updated>2023-01-16T05:48:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/01/13/note/hexoUseReport/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/01/13/note/hexoUseReport/</id>
         <title>hexo使用问题记录</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/01/13/note/hexoUseReport/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/01/13/note/hexoUseReport/"/>
         <content type="html">&lt;h2 id=&#34;hexo-d-timeout&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-d-timeout&#34;&gt;#&lt;/a&gt; hexo d timeout&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;hexo d 部署到 github 仓库，经常超时，科学上网也用！&lt;/li&gt;
@@ -3407,9 +3407,9 @@
         <updated>2023-01-13T03:04:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/01/12/note/npmUse/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/01/12/note/npmUse/</id>
         <title>npm 使用记录</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/01/12/note/npmUse/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/01/12/note/npmUse/"/>
         <content type="html">&lt;h2 id=&#34;npm-使用记录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#npm-使用记录&#34;&gt;#&lt;/a&gt; npm 使用记录&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;npm 版本升级&lt;/li&gt;
@@ -3446,9 +3446,9 @@
         <updated>2023-01-12T08:36:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/01/11/note/influxdbTheory/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/01/11/note/influxdbTheory/</id>
         <title>influxdb 知识总结</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/01/11/note/influxdbTheory/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/01/11/note/influxdbTheory/"/>
         <content type="html">&lt;h2 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;定义：influxDB 是一个有 influxData 开发的开源时序型数据库，专注于海量时序数据的高性能读和写、高效存储和实时分析。广泛应用于 DevOps 监控、实时分析，物联网监控（loT 监控）等.&lt;/li&gt;
@@ -3458,9 +3458,9 @@
         <updated>2023-01-11T08:25:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/01/11/note/messageQueue/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/01/11/note/messageQueue/</id>
         <title>消息队列 知识总结</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/01/11/note/messageQueue/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/01/11/note/messageQueue/"/>
         <content type="html">&lt;h3 id=&#34;定义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#定义&#34;&gt;#&lt;/a&gt; 定义&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -3493,9 +3493,9 @@
         <updated>2023-01-11T07:25:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2022/11/17/note/dataTransferOptimization/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2022/11/17/note/dataTransferOptimization/</id>
         <title>二级节点同步数据优化至每日1500万</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2022/11/17/note/dataTransferOptimization/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2022/11/17/note/dataTransferOptimization/"/>
         <content type="html">&lt;h3 id=&#34;背景介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景介绍&#34;&gt;#&lt;/a&gt; 背景介绍&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;二级节点：相当于标识解析系统的上级，标识解析系统所产生的 &amp;lt;产品模板&amp;gt; 和 &amp;lt; 产品标识 &amp;gt; 的数据都要同步到 2 级节点平台上&lt;/li&gt;
@@ -3538,9 +3538,9 @@
         <updated>2022-11-17T07:27:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2022/10/16/note/kafkaManual/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2022/10/16/note/kafkaManual/</id>
         <title>kafka使用手册</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2022/10/16/note/kafkaManual/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2022/10/16/note/kafkaManual/"/>
         <content type="html">&lt;p&gt;systemctl start kafka&lt;br /&gt;
 systemctl start zookeeper&lt;/p&gt;
 &lt;p&gt;zookeeper 启动：&lt;br /&gt;

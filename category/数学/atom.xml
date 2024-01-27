@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://hongkuan.github.io</id>
+    <id>https://hk2012.github.io/hongkuan.github.io</id>
     <title>流年印记 • Posts by &#34;数学&#34; category</title>
-    <link href="https://hongkuan.github.io" />
+    <link href="https://hk2012.github.io/hongkuan.github.io" />
     <updated>2023-09-01T08:45:53.000Z</updated>
     <category term="记录" />
     <category term="总结" />
     <category term="学习" />
     <entry>
-        <id>https://hongkuan.github.io/2023/09/01/math/linearAlgebra/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/09/01/math/linearAlgebra/</id>
         <title>线性代数（数学二）</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/09/01/math/linearAlgebra/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/09/01/math/linearAlgebra/"/>
         <content type="html">&lt;h1 id=&#34;行列式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#行列式&#34;&gt;#&lt;/a&gt; 行列式&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;概念：行列式是一个&lt;span class=&#34;rainbow&#34;&gt;数&lt;/span&gt;，它是不同行不同列元素乘积的&lt;span class=&#34;red&#34;&gt;代数和&lt;/span&gt;&lt;/li&gt;
@@ -550,9 +550,9 @@ a_{31} &amp;amp; a_{32} &amp;amp; a_{33} \\
         <updated>2023-09-01T08:45:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/08/30/math/integralCalculus/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/08/30/math/integralCalculus/</id>
         <title>高等数学积分学</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/08/30/math/integralCalculus/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/08/30/math/integralCalculus/"/>
         <content type="html">&lt;h1 id=&#34;不定积分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#不定积分&#34;&gt;#&lt;/a&gt; 不定积分&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;定义
@@ -942,9 +942,9 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
         <updated>2023-08-30T08:58:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/08/27/math/MathImages/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/08/27/math/MathImages/</id>
         <title>高等数学数学图像作图</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/08/27/math/MathImages/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/08/27/math/MathImages/"/>
         <content type="html">&lt;h1 id=&#34;函数图像&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#函数图像&#34;&gt;#&lt;/a&gt; 函数图像&lt;/h1&gt;
 &lt;h2 id=&#34;基本图像&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本图像&#34;&gt;#&lt;/a&gt; 基本图像&lt;/h2&gt;
 &lt;ol&gt;
@@ -1323,9 +1323,9 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
         <updated>2023-08-27T07:48:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://hongkuan.github.io/2023/08/18/math/advancedMathematics/</id>
+        <id>https://hk2012.github.io/hongkuan.github.io/2023/08/18/math/advancedMathematics/</id>
         <title>高等数学(数学二)</title>
-        <link rel="alternate" href="https://hongkuan.github.io/2023/08/18/math/advancedMathematics/"/>
+        <link rel="alternate" href="https://hk2012.github.io/hongkuan.github.io/2023/08/18/math/advancedMathematics/"/>
         <content type="html">&lt;h1 id=&#34;概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概述&#34;&gt;#&lt;/a&gt; 概述&lt;/h1&gt;
 &lt;h2 id=&#34;官方解释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#官方解释&#34;&gt;#&lt;/a&gt; 官方解释&lt;/h2&gt;
 &lt;ul&gt;
