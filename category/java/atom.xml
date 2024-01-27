@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hongkuan.github.io</id>
+    <title>流年印记 • Posts by &#34;java&#34; category</title>
+    <link href="https://hongkuan.github.io" />
+    <updated>2023-01-24T07:48:53.000Z</updated>
+    <category term="记录" />
+    <category term="总结" />
+    <category term="学习" />
+    <entry>
+        <id>https://hongkuan.github.io/2023/01/24/java/jvm%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+        <title>jvm面试题整理</title>
+        <link rel="alternate" href="https://hongkuan.github.io/2023/01/24/java/jvm%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+        <content type="html">&lt;h2 id=&#34;jvm底层面试题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jvm底层面试题&#34;&gt;#&lt;/a&gt; JVM 底层面试题&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;说一说 JVM 主要组成部分及其作用&lt;br /&gt;
+ 1.1. class loader: 类加载器，加载类文件到内存，class loader 只管加载，只要符合文件结构就加载，至于能否运行，它不负责（由 execution engine 负责）&lt;br /&gt;
+1.2. execution engine: 执行引擎或解释器，负责解释命令，交由操作系统执行&lt;br /&gt;
+ 1.3. native interface：本地接口，本地接口的作用是融合不同的语言为 java 所用。&lt;br /&gt;
+1.4. runtimeDate area: 运行数据区，这是 jvm 的重点，我们所写的程序都被加载到这里，之后才开始运行。&lt;br /&gt;
+- 1.4.1. java virtual machine stacks: 栈也叫栈内存，是 java 程序的运行区，是在线程创建时创建，他的生命周期跟随线程的生命周期，线程结束时，栈内存释放；&lt;br /&gt;
+- 1.4.2. 堆内存：一个 JVM 实例只存在一个堆内存，堆内存的大小是可以调节的&lt;br /&gt;
+ - 1.4.3. program counter register: 程序计数器 当前线程所执行的字节码的行号指示器，字节码解析器的工作是通过改变这个计数器的值，来选取下一条需要执行的字节码指令，&lt;/p&gt;
+&lt;p&gt;1.5. 组件作用：通过 class loader 将 java 代码转换成字节码，（runtime data area）再把字节码加载到内存中，而字节码文件只是 JVM 的一套指令集规范，并不能直接交给操作系统执行，因此还需要特定命令的执行引擎（execution engine）, 将字节码翻译成底层系统指令，再交由 CPU 执行，而这个过程中需要调用其他语言的本地库接口（Native Interface）来实现整个程序的功能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;说一下 JVM 运行时数据区&lt;br /&gt;
+程序计数器（Program Counter Register）：当前线程所执行的字节码的行号指示器，字节码解析器的工作是通过改变这个计数器的值，来选取下一条需要执行的字节码指令，分支、循环、跳转、异常处理、线程恢复等基础功能，都需要依赖这个计数器来完成；&lt;br /&gt;
+Java 虚拟机栈（Java Virtual Machine Stacks）：用于存储局部变量表、操作数栈、动态链接、方法出口等信息；&lt;br /&gt;
+本地方法栈（Native Method Stack）：与虚拟机栈的作用是一样的，只不过虚拟机栈是服务 Java 方法的，而本地方法栈是为虚拟机调用 Native 方法服务的；&lt;br /&gt;
+Java 堆（Java Heap）：Java 虚拟机中内存最大的一块，是被所有线程共享的，几乎所有的对象实例都在这里分配内存；&lt;br /&gt;
+方法区（Methed Area）：用于存储已被虚拟机加载的类信息、常量、静态变量、即时编译后的代码等数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;总结下来&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;spring 是核心，提供了基础功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;控制反转 (IoC) ：管理 Bean 的生命周期&lt;/li&gt;
+&lt;li&gt;面向切面编程 (AOP) ：OOP 是从纵向解决代码重复问题，AOP 则是从横向解决代码重复的问题。(性能监视，事务管理，安全检查，缓存)，将业务逻辑和系统处理的代码进行解耦，如 关闭连接，事务管理，操作日志
+&lt;ul&gt;
+&lt;li&gt;@Before 前置通知&lt;/li&gt;
+&lt;li&gt;@After 后置通知&lt;/li&gt;
+&lt;li&gt;@AfterReturning 返回后通知&lt;/li&gt;
+&lt;li&gt;@AfterThrowing 异常通知&lt;/li&gt;
+&lt;li&gt;@Around 环绕通知&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;springmvc 是基于 spring mvc 框架&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;springboot 是为了简化 spring 配置的快速开发整合包&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;spring cloud 是构建在 spring boot 之上的服务治理框架&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Java 集合框架&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;List
+&lt;ul&gt;
+&lt;li&gt;ArrayList&lt;/li&gt;
+&lt;li&gt;LinkedList&lt;/li&gt;
+&lt;li&gt;Vector&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Set
+&lt;ul&gt;
+&lt;li&gt;TreeSet&lt;/li&gt;
+&lt;li&gt;HashSet&lt;/li&gt;
+&lt;li&gt;LinkedHashSet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Queue
+&lt;ul&gt;
+&lt;li&gt;PriorityQueue&lt;/li&gt;
+&lt;li&gt;Deque&lt;/li&gt;
+&lt;li&gt;DelayQueue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Map
+&lt;ul&gt;
+&lt;li&gt;TreeMap&lt;/li&gt;
+&lt;li&gt;HashMap&lt;/li&gt;
+&lt;li&gt;LinkedHashMap&lt;/li&gt;
+&lt;li&gt;ConcurrentHashMap&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如何保证接口幂等性&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前端拦截&lt;/li&gt;
+&lt;li&gt;数据库实现
+&lt;ul&gt;
+&lt;li&gt;悲观锁实现&lt;/li&gt;
+&lt;li&gt;乐观锁实现&lt;/li&gt;
+&lt;li&gt;唯一索引实现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;JVM 锁实现&lt;/li&gt;
+&lt;li&gt;分布式锁实现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MySQL 一条 sql 语句的查询过程&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1. 解析器  -&amp;gt; 2. 执行器 -&amp;gt; 3. 查询优化器 -&amp;gt; 存储引擎&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="总结" />
+        <updated>2023-01-24T07:48:53.000Z</updated>
+    </entry>
+</feed>
