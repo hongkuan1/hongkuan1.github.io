@@ -5,11 +5,86 @@
         <link>https://hongkuan.github.io</link>
         <description>数学 &amp; 软件工程</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 26 Nov 2023 17:09:00 +0800</pubDate>
-        <lastBuildDate>Sun, 26 Nov 2023 17:09:00 +0800</lastBuildDate>
-        <category>记录</category>
+        <pubDate>Fri, 26 Jan 2024 17:09:00 +0800</pubDate>
+        <lastBuildDate>Fri, 26 Jan 2024 17:09:00 +0800</lastBuildDate>
         <category>总结</category>
+        <category>记录</category>
         <category>学习</category>
+        <item>
+            <guid isPermalink="true">https://hongkuan.github.io/2024/01/26/doc/hello/</guid>
+            <title>机器学习实战</title>
+            <link>https://hongkuan.github.io/2024/01/26/doc/hello/</link>
+            <category>学习</category>
+            <pubDate>Fri, 26 Jan 2024 17:09:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;第一部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一部分&#34;&gt;#&lt;/a&gt; 第一部分&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;本书前两部分主要探讨监督学习 （supervised learning）。
+&lt;ul&gt;
+&lt;li&gt;监督学习过程中，我们只需要给定输入样本集，机器就可以从中推演出指定目标变量的可能结果。监督学习相对比较简单，机器只需要从输入数据中预测合适的模型，并从中计算出目标变量的结果。&lt;/li&gt;
+&lt;li&gt;监督学习一般适用两种类型的目标变量
+&lt;ol&gt;
+&lt;li&gt;&lt;span class=&#34;red&#34;&gt;标称型&lt;/span&gt;：标称型目标变量的结果只在有限目标集中取值，如真和假、动物分类集合 {爬行类、鱼类、哺乳类、两栖类}；&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;red&#34;&gt;数值型&lt;/span&gt;：数值型目标变量用于回归分析；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;机器学习基础&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#机器学习基础&#34;&gt;#&lt;/a&gt; 机器学习基础&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;何谓机器学习？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;简单的说，机器学习就是把无序的数据转换为有用的信息。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;机器学习用到了统计学知识。在多数人看来，统计学不过是企业用以炫耀产品功能的一种诡计而已。而我也是这么认为的，尽管这样的想法很狭隘。然而，在现实世界中，并不是每个问题都存在确定的解决方案。在很多时候，我们无法透彻地理解问题，，或者没有足够的计算资源为问题精确建立模型，例如我们无法给人类活动的动机建立模型。为了解决这些问题，我们就需要使用统计学知识。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;传感器数据&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;目标变量是机器学习算法的预测结果，在分类算法中目标变量的类型通常是&lt;span class=&#34;red&#34;&gt;标称型&lt;/span&gt;的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分类和回归属于监督学习，之所以称之为监督学习，是因为这类算法必须知道预测什么，即目标变量的分类信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与监督学习相对应的是无监督学习，此时数据没有类别信息，也不会给定目标值。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;开发机器学习应用程序的步骤&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;收集数据&lt;/li&gt;
+&lt;li&gt;准备输入数据&lt;/li&gt;
+&lt;li&gt;分析输入数据&lt;/li&gt;
+&lt;li&gt;训练算法&lt;/li&gt;
+&lt;li&gt;测试算法&lt;/li&gt;
+&lt;li&gt;使用算法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;k-近邻算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#k-近邻算法&#34;&gt;#&lt;/a&gt; k - 近邻算法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;概述
+&lt;ul&gt;
+&lt;li&gt;简单的说，k - 近邻算法采用测量不同特征值之间的距离方法进行分类。&lt;/li&gt;
+&lt;li&gt;优点： 精度高、对异常值不敏感、无数据输入假定&lt;/li&gt;
+&lt;li&gt;缺点：计算复杂度高，空间复杂度高&lt;/li&gt;
+&lt;li&gt;使用数据范围：数值型和标称型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;工作原理
+&lt;ul&gt;
+&lt;li&gt;存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每一数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。&lt;/li&gt;
+&lt;li&gt;一般来说，我们只选择样本数据集中前 K 个最相似的数据，这就是 K - 近邻算法中 K 的出处，通常 K 是不大于 20 的整数。最后，选择 K 个最相似数据中出现次数最多的分类，作为新数据的分类。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;贝叶斯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#贝叶斯&#34;&gt;#&lt;/a&gt; 贝叶斯&lt;/h2&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://hongkuan.github.io/2023/11/26/doc/machineLeaning/</guid>
             <title>机器学习实战</title>
