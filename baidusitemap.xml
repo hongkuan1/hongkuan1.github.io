@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hongkuan1.github.io/2024/10/07/doc/aopdocument/</loc>
+    <lastmod>2024-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://hongkuan1.github.io/2024/06/28/note/influxdb/</loc>
+    <lastmod>2024-06-28</lastmod>
+  </url>
+  <url>
     <loc>https://hongkuan1.github.io/2024/05/05/doc/cppRecord/</loc>
     <lastmod>2024-05-05</lastmod>
   </url>
@@ -53,10 +61,6 @@
     <lastmod>2024-01-27</lastmod>
   </url>
   <url>
-    <loc>https://hongkuan1.github.io/2022/10/15/note/influxdb/</loc>
-    <lastmod>2024-01-27</lastmod>
-  </url>
-  <url>
     <loc>https://hongkuan1.github.io/2023/08/30/math/integralCalculus/</loc>
     <lastmod>2024-01-27</lastmod>
   </url>
@@ -74,10 +78,6 @@
   </url>
   <url>
     <loc>https://hongkuan1.github.io/2023/09/09/doc/PubmedPolictics4/</loc>
-    <lastmod>2024-01-27</lastmod>
-  </url>
-  <url>
-    <loc>https://hongkuan1.github.io/2022/10/21/doc/bigScreen/</loc>
     <lastmod>2024-01-27</lastmod>
   </url>
   <url>
