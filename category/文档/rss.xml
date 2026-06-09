@@ -7,9 +7,9 @@
         <language>zh-CN</language>
         <pubDate>Mon, 07 Oct 2024 10:00:00 +0800</pubDate>
         <lastBuildDate>Mon, 07 Oct 2024 10:00:00 +0800</lastBuildDate>
+        <category>总结</category>
         <category>记录</category>
         <category>学习</category>
-        <category>总结</category>
         <item>
             <guid isPermalink="true">https://hongkuan1.github.io/2024/10/07/doc/aopdocument/</guid>
             <title>AOP 切面编程</title>
