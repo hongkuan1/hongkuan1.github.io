@@ -47,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://hongkuan1.github.io/2022/10/16/note/kafkaManual/</loc>
-    
-    <lastmod>2024-01-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hongkuan1.github.io/2023/01/11/note/messageQueue/</loc>
     
     <lastmod>2024-01-27</lastmod>
@@ -74,16 +65,7 @@
   </url>
   
   <url>
-    <loc>https://hongkuan1.github.io/2023/09/08/note/softwareEnginee2/</loc>
-    
-    <lastmod>2024-01-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hongkuan1.github.io/2023/01/16/note/securityFrame/</loc>
+    <loc>https://hongkuan1.github.io/2022/10/16/note/kafkaManual/</loc>
     
     <lastmod>2024-01-27</lastmod>
     
@@ -101,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://hongkuan1.github.io/2023/09/08/note/CLanguage/</loc>
+    <loc>https://hongkuan1.github.io/2023/01/16/note/securityFrame/</loc>
     
     <lastmod>2024-01-27</lastmod>
     
@@ -110,7 +92,25 @@
   </url>
   
   <url>
-    <loc>https://hongkuan1.github.io/2022/11/17/note/dataTransferOptimization/</loc>
+    <loc>https://hongkuan1.github.io/2023/09/08/note/softwareEnginee2/</loc>
+    
+    <lastmod>2024-01-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hongkuan1.github.io/2023/09/01/math/linearAlgebra/</loc>
+    
+    <lastmod>2024-01-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hongkuan1.github.io/2023/09/08/note/CLanguage/</loc>
     
     <lastmod>2024-01-27</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://hongkuan1.github.io/2023/09/01/math/linearAlgebra/</loc>
+    <loc>https://hongkuan1.github.io/2022/11/17/note/dataTransferOptimization/</loc>
     
     <lastmod>2024-01-27</lastmod>
     
@@ -227,13 +227,6 @@
 
   
   <url>
-    <loc>https://hongkuan1.github.io/tags/%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hongkuan1.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -247,10 +240,17 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://hongkuan1.github.io/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://hongkuan1.github.io/categories/note/</loc>
+    <loc>https://hongkuan1.github.io/categories/doc/</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -264,14 +264,14 @@
   </url>
   
   <url>
-    <loc>https://hongkuan1.github.io/categories/doc/</loc>
+    <loc>https://hongkuan1.github.io/categories/math/</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hongkuan1.github.io/categories/math/</loc>
+    <loc>https://hongkuan1.github.io/categories/note/</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
