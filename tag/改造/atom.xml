@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hongkuan1.github.io</id>
+    <title>流年印记 • Posts by &#34;改造&#34; tag</title>
+    <link href="https://hongkuan1.github.io" />
+    <updated>2026-06-21T07:35:00.000Z</updated>
+    <category term="记录" />
+    <category term="学习" />
+    <category term="总结" />
+    <category term="产品设计" />
+    <category term="博客" />
+    <category term="改造" />
+    <category term="计划" />
+    <category term="Flutter" />
+    <category term="国际化" />
+    <category term="响应式布局" />
+    <entry>
+        <id>https://hongkuan1.github.io/2026/06/21/doc/blog-renovation-roadmap/</id>
+        <title>博客现状体检与改造计划</title>
+        <link rel="alternate" href="https://hongkuan1.github.io/2026/06/21/doc/blog-renovation-roadmap/"/>
+        <content type="html">&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;这不是一次单纯的换皮，而是把博客改造成一个 &lt;strong&gt;可阅读、可互动、可观测、可持续维护&lt;/strong&gt; 的个人知识站。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;一句话结论&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一句话结论&#34;&gt;#&lt;/a&gt; 一句话结论&lt;/h2&gt;
+&lt;p&gt;博客当前已经完成从 Shoka 到 ShokaX 的主体迁移，但仍处于“新主题已经上线，旧资产和旧配置尚未收口”的过渡状态。&lt;/p&gt;
+&lt;p&gt;最值得优先解决的不是继续堆动画，而是先恢复统计与音乐等基础反馈，清理半启用功能和重复资产，再升级互动看板娘与首页信息架构。&lt;/p&gt;
+&lt;h2 id=&#34;当前资产盘点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#当前资产盘点&#34;&gt;#&lt;/a&gt; 当前资产盘点&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;当前状态&lt;/th&gt;
+&lt;th&gt;判断&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;内容&lt;/td&gt;
+&lt;td&gt;审计时 26 篇，本文发布后共 27 篇&lt;/td&gt;
+&lt;td&gt;内容基础已形成&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;当前主题&lt;/td&gt;
+&lt;td&gt;ShokaX 0.5.4，约 252MB&lt;/td&gt;
+&lt;td&gt;正在使用，包含独立依赖目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;旧主题&lt;/td&gt;
+&lt;td&gt;Shoka 0.2.5，约 2.7MB&lt;/td&gt;
+&lt;td&gt;已不使用，仍被 Git 跟踪&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;生成目录&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;public/&lt;/code&gt; 约 34MB&lt;/td&gt;
+&lt;td&gt;存在名称带 &lt;code&gt;2&lt;/code&gt; 的重复生成物&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;部署目录&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.deploy_git/&lt;/code&gt; 约 109MB&lt;/td&gt;
+&lt;td&gt;同样存在重复文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;根依赖&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;node_modules/&lt;/code&gt; 约 476MB&lt;/td&gt;
+&lt;td&gt;本地开发依赖&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;站点统计&lt;/td&gt;
+&lt;td&gt;插件已安装，但配置关闭&lt;/td&gt;
+&lt;td&gt;功能可恢复&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;音乐播放器&lt;/td&gt;
+&lt;td&gt;模块开启，歌单为空&lt;/td&gt;
+&lt;td&gt;按钮存在但无法初始化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;看板娘&lt;/td&gt;
+&lt;td&gt;Koharu + 旧 Live2D Widget&lt;/td&gt;
+&lt;td&gt;可运行，但年代较久、互动有限&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;评论系统&lt;/td&gt;
+&lt;td&gt;Waline、Twikoo 均关闭&lt;/td&gt;
+&lt;td&gt;“最新评论”区域缺少真实数据来源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;已确认的问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#已确认的问题&#34;&gt;#&lt;/a&gt; 已确认的问题&lt;/h2&gt;
+&lt;h3 id=&#34;p0安全与发布可靠性&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#p0安全与发布可靠性&#34;&gt;#&lt;/a&gt; P0：安全与发布可靠性&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;根配置中存在 Algolia &lt;code&gt;adminApiKey&lt;/code&gt; 明文，不适合继续保存在公开仓库。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt; 的 &lt;code&gt;sitemap.path&lt;/code&gt; 使用 Tab 缩进，不符合标准 YAML。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public/&lt;/code&gt;、&lt;code&gt;.deploy_git/&lt;/code&gt; 和根目录存在大量重复文件，例如 &lt;code&gt;index 2.html&lt;/code&gt;、&lt;code&gt;db 2.json&lt;/code&gt;、&lt;code&gt;db 3.json&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;当前 Git 工作区包含大量生成物变化，源码改动与生成结果混在一起，容易误提交或误删除。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;目标：&lt;/strong&gt; 密钥退出仓库、配置可校验、构建结果可重复、部署目录可随时重建。&lt;/p&gt;
+&lt;h3 id=&#34;p1用户可感知的功能缺口&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#p1用户可感知的功能缺口&#34;&gt;#&lt;/a&gt; P1：用户可感知的功能缺口&lt;/h3&gt;
+&lt;h4 id=&#34;统计文字没有显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#统计文字没有显示&#34;&gt;#&lt;/a&gt; 统计文字没有显示&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;hexo-symbols-count-time&lt;/code&gt; 已安装，ShokaX 也包含对应模板，但项目配置为：&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;footer&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  count&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt; false&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;post&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  count&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt; false&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这不是主题不支持，而是站点覆盖配置主动关闭了站点总字数、阅读时长和文章字数。&lt;/p&gt;
+&lt;h4 id=&#34;音乐按钮无法使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#音乐按钮无法使用&#34;&gt;#&lt;/a&gt; 音乐按钮无法使用&lt;/h4&gt;
+&lt;p&gt;音乐模块已经开启：&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;modules&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  player&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#1E754F;--shiki-dark:#4D9375&#34;&gt; true&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;但全局 &lt;code&gt;audio:&lt;/code&gt; 为空。播放器初始化代码检测不到歌单后会直接返回，因此页面保留按钮，却没有可播放内容。&lt;/p&gt;
+&lt;p&gt;此外，当前播放器只读取每个列表的第一个地址，并依赖第三方音乐解析接口。后续需要同时处理歌单配置、接口可用性、失败提示和移动端交互。&lt;/p&gt;
+&lt;h4 id=&#34;看板娘互动能力较弱&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#看板娘互动能力较弱&#34;&gt;#&lt;/a&gt; 看板娘互动能力较弱&lt;/h4&gt;
+&lt;p&gt;当前方案是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hexo-helper-live2d&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;live2d-widget-model-koharu&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;本地 &lt;code&gt;L2Dwidget&lt;/code&gt; 脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;它能显示角色和固定文本，但缺少现代交互层，例如点击菜单、随机对话、文章推荐、返回顶部、换装/换模型、状态记忆和移动端降级。&lt;/p&gt;
+&lt;h3 id=&#34;p2体验与内容结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#p2体验与内容结构&#34;&gt;#&lt;/a&gt; P2：体验与内容结构&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;首页依赖随机动漫图片 API，视觉不稳定，也会带来加载速度和可用性风险。&lt;/li&gt;
+&lt;li&gt;“随机文章”和“最新评论”同时开启，但评论后端关闭，形成空模块。&lt;/li&gt;
+&lt;li&gt;搜索依赖 Algolia，却没有明确的索引更新流程；Pagefind 已配置但关闭。&lt;/li&gt;
+&lt;li&gt;多篇旧文章存在分类字段拼写错误、Front Matter 风格不一致和内容时效问题。&lt;/li&gt;
+&lt;li&gt;首页目前缺少“站点状态、最近更新、重点项目、改造进度”等能说明博客价值的信息。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;p3工程冗余&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#p3工程冗余&#34;&gt;#&lt;/a&gt; P3：工程冗余&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;themes/shoka&lt;/code&gt; 与 &lt;code&gt;themes/shokax&lt;/code&gt; 双主题共存。&lt;/li&gt;
+&lt;li&gt;ShokaX 自带 &lt;code&gt;.git&lt;/code&gt;、&lt;code&gt;node_modules&lt;/code&gt; 和独立锁文件，使主题目录膨胀到约 252MB。&lt;/li&gt;
+&lt;li&gt;根项目仍保留旧主题时代的依赖，例如 Landscape、Heroku deployer 和部分不再使用的渲染/搜索组件。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;temp_*.js&lt;/code&gt;、&lt;code&gt;temp_*.html&lt;/code&gt;、多个 &lt;code&gt;db*.json&lt;/code&gt; 没有统一清理规则。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public/&lt;/code&gt; 被 Git 跟踪，导致每次构建产生大量无关差异。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;改造后的目标体验&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#改造后的目标体验&#34;&gt;#&lt;/a&gt; 改造后的目标体验&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;用户来到博客后&lt;/th&gt;
+&lt;th&gt;期望体验&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;首次进入首页&lt;/td&gt;
+&lt;td&gt;立即知道“我是谁、博客写什么、最近在做什么”&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;阅读文章&lt;/td&gt;
+&lt;td&gt;能看到字数、预计阅读时间、更新时间和目录进度&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;点击音乐按钮&lt;/td&gt;
+&lt;td&gt;有明确歌单、播放状态、失败提示和音量控制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;与看板娘互动&lt;/td&gt;
+&lt;td&gt;能点击唤出菜单、随机对话、推荐文章，并可关闭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;浏览站点&lt;/td&gt;
+&lt;td&gt;图片和字体加载稳定，移动端不遮挡正文&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;查看首页&lt;/td&gt;
+&lt;td&gt;能看到改造进度与最新成果，而不是只有文章流&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;维护博客&lt;/td&gt;
+&lt;td&gt;只提交源码，构建和部署结果能够一键重建&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;分阶段改造路线&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分阶段改造路线&#34;&gt;#&lt;/a&gt; 分阶段改造路线&lt;/h2&gt;
+&lt;h3 id=&#34;第一阶段恢复基础反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一阶段恢复基础反馈&#34;&gt;#&lt;/a&gt; 第一阶段：恢复基础反馈&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 开启文章字数、阅读时长和站点总字数。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 为音乐播放器配置一个最小可用歌单。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_2&#34;&gt; 播放器无歌单时隐藏按钮，有错误时展示提示。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_3&#34;&gt; 关闭没有数据源的“最新评论”，或完成评论系统接入。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_4&#34;&gt; 修复 YAML 缩进和 Front Matter 拼写问题。&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;验收：&lt;/strong&gt; 文章页有统计文字；音乐按钮至少可以稳定播放一首歌；控制台无播放器初始化错误。&lt;/p&gt;
+&lt;h3 id=&#34;第二阶段升级互动看板娘&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二阶段升级互动看板娘&#34;&gt;#&lt;/a&gt; 第二阶段：升级互动看板娘&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_5&#34;&gt; 评估并迁移到维护更活跃的 Live2D Web 方案。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 支持点击菜单、随机对话、文章推荐、返回顶部和关闭。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_7&#34;&gt; 模型、台词与博客气质一致，不使用来历不明的模型资源。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_8&#34;&gt; 手机端默认缩小或关闭，避免遮挡正文与性能下降。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_9&#34;&gt; 尊重 &lt;code&gt;prefers-reduced-motion&lt;/code&gt;，提供低动画模式。&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;验收：&lt;/strong&gt; 桌面端可互动，移动端不遮挡内容，关闭状态能够被记住。&lt;/p&gt;
+&lt;h3 id=&#34;第三阶段收口主题与依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第三阶段收口主题与依赖&#34;&gt;#&lt;/a&gt; 第三阶段：收口主题与依赖&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_10&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_10&#34;&gt; 确认没有旧模板依赖后移除 &lt;code&gt;themes/shoka&lt;/code&gt;。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_11&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_11&#34;&gt; 决定 ShokaX 的管理方式：Git 子模块、npm/pnpm 包或精简源码副本。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_12&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_12&#34;&gt; 删除主题内 &lt;code&gt;node_modules&lt;/code&gt;，统一由锁文件安装。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_13&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_13&#34;&gt; 清理根依赖，只保留实际使用的 Hexo 插件。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_14&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_14&#34;&gt; 扩充 &lt;code&gt;.gitignore&lt;/code&gt;，移除临时文件和重复生成物。&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;验收：&lt;/strong&gt; 全新克隆后只需一次安装和一次构建即可得到相同站点。&lt;/p&gt;
+&lt;h3 id=&#34;第四阶段首页产品化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第四阶段首页产品化&#34;&gt;#&lt;/a&gt; 第四阶段：首页产品化&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_15&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_15&#34;&gt; 用稳定的本地封面替换关键页面的随机图片。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_16&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_16&#34;&gt; 首页增加“博客状态、重点专题、最近改造、项目入口”。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_17&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_17&#34;&gt; 建立统一的文章封面、分类名称和摘要规则。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_18&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_18&#34;&gt; 选择 Pagefind 或 Algolia 作为唯一搜索方案。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_19&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_19&#34;&gt; 添加轻量访问统计，并明确隐私策略。&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;验收：&lt;/strong&gt; 首页首屏能传达博客定位，核心入口在桌面和手机上都易于发现。&lt;/p&gt;
+&lt;h3 id=&#34;第五阶段质量与持续维护&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第五阶段质量与持续维护&#34;&gt;#&lt;/a&gt; 第五阶段：质量与持续维护&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_20&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_20&#34;&gt; 增加构建校验、链接检查和配置校验。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_21&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_21&#34;&gt; 部署前自动生成站点，不再手工维护 &lt;code&gt;public/&lt;/code&gt;。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_22&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_22&#34;&gt; 每季度检查外部 API、CDN、字体和图片服务可用性。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_23&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_23&#34;&gt; 为旧文章添加“最后验证时间”和时效提示。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_24&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_24&#34;&gt; 用本文持续记录改造进度和决策。&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;验收：&lt;/strong&gt; 构建失败会被及时发现，外部依赖失效不会让核心阅读功能不可用。&lt;/p&gt;
+&lt;h2 id=&#34;推荐实施顺序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#推荐实施顺序&#34;&gt;#&lt;/a&gt; 推荐实施顺序&lt;/h2&gt;
+&lt;div class=&#34;note success&#34;&gt;
+&lt;p&gt;统计文字 → 最小歌单 → 播放器失败处理 → 看板娘替换 → 旧主题清理 → 首页改版。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;这个顺序优先修复读者能直接感知的问题，同时把风险较高的主题和部署清理放在功能稳定之后。&lt;/p&gt;
+&lt;h2 id=&#34;不做什么&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#不做什么&#34;&gt;#&lt;/a&gt; 不做什么&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;不为了“炫酷”一次性叠加大量动画。&lt;/li&gt;
+&lt;li&gt;不让看板娘、音乐或烟花遮挡阅读内容。&lt;/li&gt;
+&lt;li&gt;不同时维护两套搜索、两套评论或两套主题。&lt;/li&gt;
+&lt;li&gt;不继续把密钥、缓存、构建产物和源码混在同一个提交里。&lt;/li&gt;
+&lt;li&gt;不在没有回滚方案的情况下直接删除旧主题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;进度看板&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进度看板&#34;&gt;#&lt;/a&gt; 进度看板&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;阶段&lt;/th&gt;
+&lt;th&gt;状态&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;现状审计&lt;/td&gt;
+&lt;td&gt;已完成&lt;/td&gt;
+&lt;td&gt;已定位统计、音乐、看板娘与工程冗余问题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;基础反馈&lt;/td&gt;
+&lt;td&gt;待开始&lt;/td&gt;
+&lt;td&gt;统计与音乐是第一批改造&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;看板娘升级&lt;/td&gt;
+&lt;td&gt;待评估&lt;/td&gt;
+&lt;td&gt;先确认模型授权与移动端策略&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;主题收口&lt;/td&gt;
+&lt;td&gt;待开始&lt;/td&gt;
+&lt;td&gt;删除前先做依赖核对&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;首页产品化&lt;/td&gt;
+&lt;td&gt;待开始&lt;/td&gt;
+&lt;td&gt;在基础功能稳定后进行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;持续质量&lt;/td&gt;
+&lt;td&gt;长期进行&lt;/td&gt;
+&lt;td&gt;构建、链接、外部服务定期检查&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;本文是博客改造的单一事实来源。每完成一个阶段，就更新状态、验收结果和重要决策，避免计划散落在临时笔记里。&lt;/p&gt;
+&lt;/div&gt;
+</content>
+        <category term="博客" />
+        <category term="改造" />
+        <category term="计划" />
+        <updated>2026-06-21T07:35:00.000Z</updated>
+    </entry>
+</feed>
