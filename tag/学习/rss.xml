@@ -7,16 +7,16 @@
         <language>zh-CN</language>
         <pubDate>Wed, 10 Jun 2026 00:00:00 +0800</pubDate>
         <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0800</lastBuildDate>
+        <category>总结</category>
         <category>记录</category>
+        <category>博客</category>
+        <category>改造</category>
+        <category>计划</category>
         <category>学习</category>
         <category>产品设计</category>
         <category>Flutter</category>
         <category>国际化</category>
         <category>响应式布局</category>
-        <category>总结</category>
-        <category>博客</category>
-        <category>改造</category>
-        <category>计划</category>
         <item>
             <guid isPermalink="true">https://hongkuan1.github.io/2026/06/10/doc/%E6%B1%9F%E6%B9%96%E9%92%93%E5%AE%A2%E5%8A%9F%E8%83%BD%E6%80%BB%E7%BB%93/</guid>
             <title>江湖钓客 App 功能总结</title>
