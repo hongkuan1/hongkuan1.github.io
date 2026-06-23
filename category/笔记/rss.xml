@@ -5,18 +5,164 @@
         <link>https://hongkuan1.github.io</link>
         <description>数学 &amp; 软件工程</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 08 Sep 2023 17:55:00 +0800</pubDate>
-        <lastBuildDate>Fri, 08 Sep 2023 17:55:00 +0800</lastBuildDate>
+        <pubDate>Fri, 28 Jun 2024 15:27:53 +0800</pubDate>
+        <lastBuildDate>Fri, 28 Jun 2024 15:27:53 +0800</lastBuildDate>
         <category>记录</category>
         <category>学习</category>
-        <category>总结</category>
         <category>产品设计</category>
-        <category>博客</category>
-        <category>改造</category>
-        <category>计划</category>
         <category>Flutter</category>
         <category>国际化</category>
         <category>响应式布局</category>
+        <category>总结</category>
+        <category>博客</category>
+        <category>改造</category>
+        <category>计划</category>
+        <item>
+            <guid isPermalink="true">https://hongkuan1.github.io/2024/06/28/note/influxdb/</guid>
+            <title>集合</title>
+            <link>https://hongkuan1.github.io/2024/06/28/note/influxdb/</link>
+            <category>总结</category>
+            <pubDate>Fri, 28 Jun 2024 15:27:53 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;集合的概念与表示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#集合的概念与表示&#34;&gt;#&lt;/a&gt; 集合的概念与表示&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;什么是集合？&lt;/strong&gt; 请定义集合的概念，并举例说明。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;如何表示集合？&lt;/strong&gt; 请用列举法和描述法分别表示以下集合：所有偶数的集合。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;集合的元素&lt;/strong&gt;：请解释集合中的元素的唯一性，并举例说明两个集合中的元素是否相同。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;子集-全集-补集&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#子集-全集-补集&#34;&gt;#&lt;/a&gt; 子集、全集、补集&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;子集的定义&lt;/strong&gt;：如果 ( A = {1, 2, 3} )，请列出所有 ( A ) 的子集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;全集的概念&lt;/strong&gt;：给定全集 ( U = {1, 2, 3, 4, 5} )，集合 ( A = {2, 4} )，请找出 ( A ) 的补集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;补集的运算&lt;/strong&gt;：如果全集 ( U = {a, b, c, d} )，集合 ( B = {a, c} )，请计算 ( B ) 的补集 ( B^c )。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;交集-并集&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#交集-并集&#34;&gt;#&lt;/a&gt; 交集、并集&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;交集的定义&lt;/strong&gt;：请定义集合的交集，并计算集合 ( A = {1, 2, 3} ) 和集合 ( B = {2, 3, 4} ) 的交集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;并集的定义&lt;/strong&gt;：请定义集合的并集，并计算集合 ( C = {a, b, c} ) 和集合 ( D = {b, c, d} ) 的并集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;交集和并集的关系&lt;/strong&gt;：请举例说明两个集合的交集和并集之间的关系。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;题目示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#题目示例&#34;&gt;#&lt;/a&gt; 题目示例&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;集合的表示&lt;/strong&gt;：用描述法表示所有小于10的质数集合。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;子集&lt;/strong&gt;：判断集合 ( A = {1, 2} ) 是否是集合 ( B = {1, 2, 3} ) 的子集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;补集&lt;/strong&gt;：已知全集 ( U = {0, 1, 2, 3, 4, 5} )，集合 ( A = {1, 2, 3} )，求 ( A ) 的补集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;交集&lt;/strong&gt;：计算集合 ( P = {2, 4, 6} ) 和集合 ( Q = {4, 5, 6} ) 的交集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;并集&lt;/strong&gt;：计算集合 ( X = {red, blue} ) 和集合 ( Y = {blue, green} ) 的并集。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;答题区域：&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span&gt;____________________________________________________________________________&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://hongkuan1.github.io/2023/09/08/note/softwareEnginee/</guid>
             <title>2024软件工程</title>
